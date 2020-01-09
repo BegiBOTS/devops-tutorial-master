@@ -1,6 +1,8 @@
 # use a node base image
 FROM node:7-onbuild
 
+WORKDIR C:\\Program Files (x86)\\Jenkins\\workspace\\chocks
+
 # set maintainer
 LABEL maintainer "miiro@getintodevops.com"
 
